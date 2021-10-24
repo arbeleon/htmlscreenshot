@@ -1,4 +1,6 @@
-# Dockerized HTML to screenshot
+# HTML to screenshot
+
+Docker conainer to generate a JPG screenshot from an HTML page
 
 ## Quick start guide
 
