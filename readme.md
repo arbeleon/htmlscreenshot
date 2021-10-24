@@ -18,11 +18,10 @@ Generate a screenshot
 ```
 curl -X POST \
   http://localhost:8080/image \
-  -H 'Postman-Token: cc2238c5-2e53-4fdd-876c-add36a82e63e' \
-  -H 'cache-control: no-cache' \
   -d '<html>
-This is a web page!
-</html>'
+    This is a web page!
+   </html>' \
+  --output screenshot.jpg
 ```
 
 ## Docker repository
