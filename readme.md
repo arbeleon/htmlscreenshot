@@ -6,7 +6,7 @@ Docker conainer to generate a JPG screenshot from an HTML page
 
 Run a docker container:
 ```bash
-docker run --rm -it -d -p 8080:80/tcp arbeleon/htmlscreenshot:1.0.0
+docker run -d -p 8080:80/tcp arbeleon/htmlscreenshot:1.0.0
 ```
 
 Generate a screenshot
