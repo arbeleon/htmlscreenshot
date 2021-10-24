@@ -11,7 +11,7 @@ docker build --pull --rm -f "Dockerfile" -t htmlscreenshot:latest "."
 
 Run a docker container:
 ```bash
-docker run --rm -it -d -p 8080:80/tcp htmlscreenshot:latest
+docker run --rm -it -d -p 8080:80/tcp arbeleon/htmlscreenshot:latest
 ```
 
 Generate a screenshot
@@ -24,6 +24,10 @@ curl -X POST \
 This is a web page!
 </html>'
 ```
+
+## Docker repository
+
+[Docker Hub arbeleon/htmlscreenshot](https://hub.docker.com/repository/docker/arbeleon/htmlscreenshot)
 
 
 
